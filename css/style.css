@@ -235,7 +235,7 @@ html, body{
    header .hero img {
      display:block;
      margin:3em auto 0;
-     margin-bottom: -4px;
+     margin-bottom: 40px;
    }
  }
  /* BUTTONS */
@@ -359,6 +359,15 @@ html, body{
       z-index: 0;
    }
  }
+ .container.footer-nav-block {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to top, #FFFFFF 0%, #FFFFFF 50%, #2DC4BA 50%, #2DC4BA 100%);
+    color: #FFFFFF;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
  footer p, footer nav ul {
    font-size:14px;
    font-weight:100;
@@ -563,3 +572,9 @@ a:active {
     margin-bottom: 20px;
     text-align: center;
 }
+
+section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';
+content:none}table{border-collapse:collapse;border-spacing:0}
+body,input,p,textarea{color:#ffffff}.movie-module,body,input,
+textarea{background-color:#fff}.button,body,button,input,textarea{font-family:Helvetica,Arial,sans-serif}*{box-sizing:border-box}body{font-size:14px;padding:20}body.theater-mode{overflow:hidden;position:fixed;width:100%}a{color:#00c8ff;text-decoration:none}h1,h2,h3,h4,h5,h6{color:#ffffff;display:inline-block;font-weight:400;margin:0}h1{font-size:34px;line-height:42px}h2{font-size:28px;line-height:28px}h3{font-size:18px;line-height:18px}p{line-height:24px;padding-bottom:12px}input,textarea{border:none;border-radius:3px;font-size:14px;padding:10px}input{height:33px}b,strong{font-weight:600}.red-text{color:#ff4f37}.blue-text{color:#0cf}.container{background-size:cover;margin:0 auto;max-width:1220px;position:relative;width:100%}.column{float:left;font-size:16px;line-height:20px}.

@@ -38,9 +38,30 @@ body.collection {
  .collection-album-container img {
      width: 80%;
  }
- .collection-album-container {
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
+ .fa.fa-facebook.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-twitter.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-instagram.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-pinterest.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-youtube.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-tumblr.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-soundcloud.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-google-plus.fa-2x::before {
+   color: red;
+ }
+ .fa.fa-apple.fa-2x::before {
+   color: red;
+ }
