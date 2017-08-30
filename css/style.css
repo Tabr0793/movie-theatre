@@ -46,6 +46,7 @@ html, body{
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
+    padding-bottom: 40px;
   }
   .container:before,
   .container:after {
@@ -100,9 +101,11 @@ html, body{
   padding: 10px 15px;
   display: flex;
   justify-content: space-between;
-  max-width: 1170px;
+  max-width: 1470px;
   margin: 0 auto;
   align-items: center;
+  background-color: #000000;
+  background-image: linear-gradient(206deg, #8c7534 0%, #000000 94%);
   }
   .one-half {
     max-width: 34%;
@@ -260,11 +263,56 @@ html, body{
       border: 2px solid #db1212;
       box-shadow: 0px 2px 0px 0px #bb1d1d;
     }
+    /* BENEFITS */
+  .benefits {
+    text-align: center;
+    display:block;
+    position:relative;
+    background-color: #8c7534;
+  }
+  .benefits ul {
+    margin: 0 auto;
+    padding:4em 0;
+  }
+  .benefits ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .benefits i {
+    color:#2DC4BA;
+    font-size:45px;
+    margin:0;
+    vertical-align: middle;
+  }
+    @media (min-width: 460px) {
+      .benefits i {
+      color:#FFFFFF;
+      font-size:45px;
+      margin:0;
+      vertical-align: middle;
+    }
+  }
+  @media (min-width: 620px) {
+    .benefits i {
+    font-size:60px;
+    }
+  }
+  .benefits h2 {
+    color:#FFFFFF;
+  }
+    @media (min-width: 460px) {
+      .benefits h2 {
+      color:#FFFFFF;
+    }
+  }
+   .row-2 {
+     padding-top: 20px
+   }
 
   /* PRICING */
-   .pricing {
-     text-align: center;
-     padding:4em 0;
+   .movies .container {
+     text-align: left;
+     padding:4em 0 2em;
    }
    /* MOVIES */
    .album-covers.container.clearfix {
@@ -305,7 +353,7 @@ html, body{
       footer {
       background-color: #000000;
       background-image: linear-gradient(to top,
-      #000000 0%, #000000 50%, #000000 50%, #000000 100%);
+      #000000 0%, #000000 50%, #8c7534 50%, #8c7534 100%);
       color: #FFFFFF;
       height: 150px;
       position: relative;
@@ -315,7 +363,7 @@ html, body{
  }
  .container.footer-nav-block {
     background-color: #000000;
-    background-image: linear-gradient(206deg, #8B9998 0%, #000000 94%);
+    background-image: linear-gradient(206deg, #8c7534 0%, #000000 94%);
     color: #FFFFFF;
     height: 200px;
     position: relative;
@@ -527,4 +575,4 @@ a:active {
     margin-bottom: 20px;
     text-align: center;
 }
-body.theater-mode{overflow:hidden;position: absolute;display:inline-table;font-weight:400;margin:0}h1{font-size:34px;line-height:42px}h2{font-size:28px;line-height:28px}h3{font-size:18px;line-height:18px}p{line-height:24px;padding-bottom:12px}input,textarea{border:none;border-radius:3px;font-size:14px;padding:10px}input{height:33px}b,strong{font-weight:600}.red-text{color:#ff4f37}.blue-text{color:#0cf}.container{background-size:cover;margin:0 auto;max-width:1220px;position:relative;width:100%}.column{float:left;font-size:16px;line-height:20px}.
+body.theater-mode{overflow:hidden;position: absolute;display:inline-table;font-weight:400;margin:0}h1{font-size:34px;line-height:42px}h2{font-size:28px;line-height:28px}h3{font-size:18px;line-height:18px}p{line-height:24px;padding-bottom:12px}input,textarea{border:none;border-radius:3px;font-size:14px;padding:10px}input{height:33px}b,strong{font-weight:600}.red-text{color:#ff4f37}.blue-text{color:#0cf}.container{background-size:cover;margin:0 auto;max-width:1420px;position:relative;width:100%}.column{float:left;font-size:16px;line-height:20px}.
