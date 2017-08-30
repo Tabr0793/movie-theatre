@@ -38,3 +38,9 @@ body.collection {
  .collection-album-container img {
      width: 80%;
  }
+ .collection-album-container {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
